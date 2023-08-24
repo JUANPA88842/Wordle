@@ -55,7 +55,7 @@ def abrirjuego4():
     root.grid_rowconfigure(0, weight=1)
     frame_1 = customtkinter.CTkFrame(master=root)
     frame_1.grid(row=0, column=1, sticky="nswe", padx=20, pady=20)
-    label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle",  text_font=("Roboto Medium", -50)) 
+    label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle") 
     label_1.grid(row=0, column=0, pady=12, padx=10)
 
     def reiniciar():
@@ -129,7 +129,7 @@ def abrirjuego4():
     wordInput.grid(row=6, column=0, pady=10, padx=20, sticky="w")
 
     #Boton de adivinar
-    wordGuessButton = customtkinter.CTkButton(master=frame_1, command=getGuess4, text="Adivina", text_font=("Roboto Medium", -14))
+    wordGuessButton = customtkinter.CTkButton(master=frame_1, command=getGuess4, text="Adivina")
     wordGuessButton.grid(row=12, column=0, pady=12, padx=10)
 
     #Corre el programa
@@ -153,7 +153,7 @@ def abrirjuego5():
     root.grid_rowconfigure(0, weight=1)
     frame_1 = customtkinter.CTkFrame(master=root)
     frame_1.grid(row=0, column=1, sticky="nswe", padx=20, pady=20)
-    label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle",  text_font=("Roboto Medium", -50)) 
+    label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle") 
     label_1.grid(row=0, column=0, pady=12, padx=10)
 
     def reiniciar():
@@ -228,7 +228,7 @@ def abrirjuego5():
     wordInput.grid(row=6, column=0, pady=10, padx=20, sticky="w")
 
     #Boton de adivinar
-    wordGuessButton = customtkinter.CTkButton(master=frame_1, command=getGuess5, text="Adivina", text_font=("Roboto Medium", -14))
+    wordGuessButton = customtkinter.CTkButton(master=frame_1, command=getGuess5, text="Adivina")
     wordGuessButton.grid(row=12, column=0, pady=12, padx=10)
 
     #Corre el programa
@@ -252,7 +252,7 @@ def abrirjuego6():
     root.grid_rowconfigure(0, weight=1)
     frame_1 = customtkinter.CTkFrame(master=root)
     frame_1.grid(row=0, column=1, sticky="nswe", padx=20, pady=20)
-    label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle",  text_font=("Roboto Medium", -50)) 
+    label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle") 
     label_1.grid(row=0, column=0, pady=12, padx=10)
 
     def reiniciar():
@@ -327,7 +327,7 @@ def abrirjuego6():
     wordInput.grid(row=6, column=0, pady=10, padx=20, sticky="w")
 
     #Boton de adivinar
-    wordGuessButton = customtkinter.CTkButton(master=frame_1, command=getGuess6, text="Adivina", text_font=("Roboto Medium", -14))
+    wordGuessButton = customtkinter.CTkButton(master=frame_1, command=getGuess6, text="Adivina")
     wordGuessButton.grid(row=12, column=0, pady=12, padx=10)
 
     #Corre el programa
@@ -350,7 +350,7 @@ def abrirjuego7():
     root.grid_rowconfigure(0, weight=1)
     frame_1 = customtkinter.CTkFrame(master=root)
     frame_1.grid(row=0, column=1, sticky="nswe", padx=20, pady=20)
-    label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle",  text_font=("Roboto Medium", -50)) 
+    label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle") 
     label_1.grid(row=0, column=0,pady=12, padx=10)
 
     def reiniciar():
@@ -425,7 +425,7 @@ def abrirjuego7():
     wordInput.grid(row=6, column=0, pady=10, padx=20, sticky="w")
 
     #Boton de adivinar
-    wordGuessButton = customtkinter.CTkButton(master=frame_1, command=getGuess7, text="Adivina", text_font=("Roboto Medium", -14))
+    wordGuessButton = customtkinter.CTkButton(master=frame_1, command=getGuess7, text="Adivina")
     wordGuessButton.grid(row=12, column=0,pady=12, padx=10)
 
     #Corre el programa
@@ -449,7 +449,7 @@ def abrirjuego8():
     root.grid_rowconfigure(0, weight=1)
     frame_1 = customtkinter.CTkFrame(master=root)
     frame_1.grid(row=0, column=1, sticky="nswe", padx=20, pady=20)
-    label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle",  text_font=("Roboto Medium", -50)) 
+    label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle") 
     label_1.grid(row=0, column=0,pady=12, padx=10)
 
     def reiniciar():
@@ -524,7 +524,7 @@ def abrirjuego8():
     wordInput.grid(row=6, column=0, pady=10, padx=20, sticky="w")
 
     #Boton de adivinar
-    wordGuessButton = customtkinter.CTkButton(master=frame_1, command=getGuess8, text="Adivina", text_font=("Roboto Medium", -14))
+    wordGuessButton = customtkinter.CTkButton(master=frame_1, command=getGuess8, text="Adivina")
     wordGuessButton.grid(row=12, column=0, pady=12, padx=10)
 
     #Corre el programa
@@ -553,23 +553,23 @@ def button_callback():
 frame_1 = customtkinter.CTkFrame(master=ventana)
 frame_1.pack(pady=20, padx=60, fill="both", expand=True)
 
-label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle",  text_font=("Roboto Medium", -50)) 
+label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Wordle") 
 label_1.pack(pady=12, padx=10)
 
-button_1 = customtkinter.CTkButton(master=frame_1, command=button_callback, text="Play", text_font=("Roboto Medium", -14))
+button_1 = customtkinter.CTkButton(master=frame_1, command=button_callback, text="Play")
 button_1.pack(pady=12, padx=10)
 
-label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Escoge una dificultad", text_font=("Roboto Medium", -20)) 
+label_1 = customtkinter.CTkLabel(master=frame_1, justify=tkinter.LEFT, text="Escoge una dificultad") 
 label_1.pack(pady=12, padx=10)
 
-optionmenu_1 = customtkinter.CTkOptionMenu(frame_1, values=["4 Letras", "5 Letras", "6 Letras", "7 Letras", "8 Letras"], text_font=("Roboto Medium", -14))
+optionmenu_1 = customtkinter.CTkOptionMenu(frame_1, values=["4 Letras", "5 Letras", "6 Letras", "7 Letras", "8 Letras"])
 optionmenu_1.pack(pady=50, padx=10)
 optionmenu_1.set("Dificultad")
 
-button_2 = customtkinter.CTkButton(master=frame_1, command=Victorias, text="Victorias", text_font=("Roboto Medium", -14))
+button_2 = customtkinter.CTkButton(master=frame_1, command=Victorias, text="Victorias")
 button_2.pack(pady=10, padx=80)
 
-button_3 = customtkinter.CTkButton(master=frame_1, command=Derrotas, text="Derrotas", text_font=("Roboto Medium", -14))
+button_3 = customtkinter.CTkButton(master=frame_1, command=Derrotas, text="Derrotas")
 button_3.pack(pady=0, padx=0)
 
 ventana.mainloop()
